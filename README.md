@@ -9,7 +9,7 @@ Built using **Arduino Nano, LDR sensors, servo motors, and solar panels**, this 
 
 | Prototype | Project Report |
 |------------|----------------|
-| ![Dual Axis Solar Tracker Prototype](Images/Dual%20Axis%20Solar%20Tracking%20Panel%20System.jpg) | [📘 View Detailed Report (PDF)](Report/Dual%20Axis%20solar%20PBL.pdf) |
+| ![Dual Axis Solar Tracker Prototype](Images/Dual%20Axis%20Solar%20Panel%20System.jpg) | [📘 View Detailed Report (PDF)](Report/Dual%20Axis%20solar%20PBL.pdf) |
 
 ---
 
