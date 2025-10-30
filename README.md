@@ -9,7 +9,7 @@ Built using **Arduino Nano, LDR sensors, servo motors, and solar panels**, this 
 
 | Prototype | Project Report |
 |------------|----------------|
-| ![Dual Axis Solar Tracker Prototype](Images/Dual%20Axis%20Solar%20Panel%20System.jpg) | [📘 View Detailed Report (PDF)](Report/Dual%20Axis%20solar%20PBL.pdf) |
+| ![Dual Axis Solar Tracker Prototype](Images/Dual%20Axis%20Solar%20Tracking%20Panel%20System.jpg) | [📘 View Detailed Report (PDF)](Report/Dual%20Axis%20solar%20PBL.pdf) |
 
 ---
 
@@ -48,10 +48,22 @@ To design and implement a **dual-axis solar tracking system** that automatically
 
 ---
 
-## 📜 Circuit & Code
-> All circuit connections and Arduino code are available in the `Code/` and `Circuit_Diagram/` folders.
+## 💻 Coding Section
 
-Example Arduino snippet:
+All source codes are stored inside the [`Codes/`](Codes/) folder.  
+Below is a description of each subfolder:
+
+| Folder | Description |
+|---------|--------------|
+| [`Main/`](Codes/Main/) | Contains the **main Arduino code** (`Dual_Axis_Solar_Tracker.ino`) that runs the complete dual-axis solar tracking system. |
+| [`Test_LDR_Sensors/`](Codes/Test_LDR_Sensors/) | Code to individually **test all LDR sensors** and verify light intensity readings in the Serial Monitor. |
+| [`Test_Servo_Motors/`](Codes/Test_Servo_Motors/) | Code to **test both servo motors** by sweeping them across full motion range. |
+| [`Test_Combined_Sensors/`](Codes/Test_Combined_Sensors/) | Combines all LDR readings to display **top-bottom** and **left-right** intensity differences before full integration. |
+
+---
+
+### 🧾 Example Arduino Snippet
+
 ```cpp
 int ldrTopLeft = A0;
 int ldrTopRight = A1;
